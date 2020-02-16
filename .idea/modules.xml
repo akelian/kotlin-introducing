@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/by.tms.firstLesson/by.tms.firstLesson.iml" filepath="$PROJECT_DIR$/by.tms.firstLesson/by.tms.firstLesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/by.trms.kotlinHW2/by.trms.kotlinHW2.iml" filepath="$PROJECT_DIR$/by.trms.kotlinHW2/by.trms.kotlinHW2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kotlin-introducing.iml" filepath="$PROJECT_DIR$/.idea/kotlin-introducing.iml" />
     </modules>
   </component>
