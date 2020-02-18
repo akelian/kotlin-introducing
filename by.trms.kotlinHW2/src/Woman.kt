@@ -5,7 +5,7 @@ open class Woman(override var name: String, override var age: Int, override var 
     }
 
     override fun eat() {
-        println("nom nom nom")
+        println("$name nom nom nom")
     }
 
     override fun work() {
