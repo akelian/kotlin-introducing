@@ -1,5 +1,4 @@
 open class Man(override var name: String, override var age: Int, override var gender: Gender) : Human {
-    constructor() : this()
 
     var occupation: String? = null
 
@@ -8,7 +7,7 @@ open class Man(override var name: String, override var age: Int, override var ge
     }
 
     override fun eat() {
-        println("$name делает жрать")
+        println("$name zhret")
     }
 
     override fun work() {
