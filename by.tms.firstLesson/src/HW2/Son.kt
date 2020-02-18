@@ -1,3 +1,5 @@
+package HW2
+
 class Son(hasFamily: Boolean, occupation: String, name: String, age: Int) : Father(hasFamily, occupation, name, age) {
 
     override fun say() {

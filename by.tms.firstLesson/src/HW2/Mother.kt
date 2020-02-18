@@ -1,3 +1,5 @@
+package HW2
+
 open class Mother(name: String, age: Int, gender: Gender) : Woman(name, age, Gender.Woman) {
     protected var numOfChilds: Int ?= null
 

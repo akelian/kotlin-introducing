@@ -1,3 +1,5 @@
+package HW2
+
 interface Human {
     var name: String
     var age: Int

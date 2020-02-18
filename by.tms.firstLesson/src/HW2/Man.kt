@@ -1,3 +1,5 @@
+package HW2
+
 open class Man(override var name: String, override var age: Int, override var gender: Gender) : Human {
 
     var occupation: String? = null
