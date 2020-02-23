@@ -7,7 +7,7 @@ fun main() {
 
         val batya = Father(true, "Active search", "Oleg", 43, Gender.Man )
         batya.say()
-        val spinogriz = Son(false,"Had work", "Oleg2", 18)
+        val spinogriz = Son(false,"Had work", "Oleg2", 18, Gender.Man)
         spinogriz.say()
         val maman = Mother("Elena", 44, Gender.Woman, 2, "Lonely")
         maman.say()
@@ -19,4 +19,10 @@ fun main() {
         list.add(spinogriz)
         list.add(maman)
         list.add(dunya)
+
+        list.sortByDescending { it.age }
+
+        for (human in list){
+                println(human.name + " " + human.age)
+        }
 }

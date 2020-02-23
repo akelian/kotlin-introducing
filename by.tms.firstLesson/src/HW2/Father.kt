@@ -15,7 +15,7 @@ open class Father(name: String, age: Int, gender: Gender) : Man(name, age, Gende
     }
 
     override fun say() {
-        print("${if(hasFamily == true){"Happy "}else{"Lonely "}} father telling tale. " +
+        println("${if(hasFamily == true){"Happy "}else{"Lonely "}} father telling tale. " +
                 "His bio: name: $name; $age y.o.; $gender; ocup: $occupation")
     }
 }
