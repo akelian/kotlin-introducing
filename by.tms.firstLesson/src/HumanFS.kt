@@ -1,4 +1,4 @@
-class Human {
+class HumanFS {
     var name: String? = null
 
     class Student {
